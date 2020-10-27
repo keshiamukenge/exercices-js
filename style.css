@@ -3,12 +3,6 @@ body {
     padding: 0 !important;
 }
 
-.premiere-page {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-
 h1 {
     font-family: Helvetica, sans-serif;
     color: white;
@@ -19,7 +13,7 @@ h1 {
 
 h2 {
     font-size: 50px;
-    color: white;
+    color: black;
     margin-bottom: 5em !important;
 }
 
@@ -36,7 +30,7 @@ h2 {
 header {
     width: 30%;
     position: fixed;
-    background-color: black;
+    background-color: #6d6875;
     color: white;
     height: 100%;
 }
@@ -52,7 +46,7 @@ header ul li {
 }
 
 .defi {
-    padding: 0 10em 50em 10em;
+    padding: 0 10em 30em 10em;
     text-align: center;
 }
 
@@ -70,26 +64,44 @@ ul li a:hover {
 }
 
 #defi1 {
-    background-color: #ffeaa7;
+    background-color: #b5838d;
     margin-top: 0;
 }
 
 #defi2 {
-    background-color: #fab1a0;
+    background-color: #e5989b;
 }
 
 #defi3 {
-    background-color: #ff7675;
+    background-color: #ffb4a2;
 }
 
 #defi4 {
-    background-color: #e17055;
+    background-color: #ffcdb2;
 }
 
 .contenue {
-    padding-top: 20em;
+    padding-top: 5em;
     display: flex;
     flex-direction: column;
 }
 
-header p {}
+input{
+    border : none;
+    border-color: white;
+}
+
+input:hover{
+    border-color: white;
+}
+input:active{
+    border-color: white;
+}
+
+img{
+    width: 60px;
+}
+button{
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px 1px rgb(109, 104, 117, 0.9);
+}
