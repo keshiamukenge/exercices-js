@@ -1,26 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Défis JavaScript</title>
     <link href="style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
-<body>
-    <h1>Défi 1</h1>
-    <input id="nbr1"> + <input id="nbr2">
-    <button onclick="somme()">résultat</button> = <input id="somme">
 
-    <h1>Défi 2</h1>
-    <input id="nbr3">
-    <button onclick="multiple()">Multiples</button>
-    = <input id="multiple"></input>
+<body class="container-fluid">
+    <header>
+        <h1>Liste de défis développé en JavaScript</h1>
+        <ul>
+            <li><a href="#defi1">Défi 1</a></li>
+            <li><a href="#defi2">Défi 2</a></li>
+            <li><a href="#defi3">Défi 3</a></li>
+            <li><a href="#defi4">Défi 6</a></li>
+        </ul>
+    </header>
 
-    <h1>Défi 3</h1>
-    <input id="nbr4">
-    <button onclick="diviseur()">Nombre premier</button>
+
+   
+
+
+    <div id="block-defi">
+        <div class="defi" id="defi1">
+            <div class="contenue">
+                <h2>Défi 1 : Les additions</h2>
+                <input id="nbr1"> + <input id="nbr2">
+                <button onclick="defi1()">Résultat</button> = <input id="somme">
+            </div>
+        </div>
+
+
+        <div class="defi" id="defi2">
+            <div class="contenue">
+                <h2>Défi 2 : Les multiples</h2>
+                <input id="nbr3">
+                <button onclick="defi2()">Multiples</button>
+                = <input id="multiple">
+            </div>
+        </div>
+
+
+        <div class="defi" id="defi3">
+            <div class="contenue">
+                <h2>Défi 3 : Les nombres premiers</h2>
+                <input id="nbr4">
+                <button onclick="defi3()">Nombre premier</button>
+            </div>
+        </div>
+
+
+
+        <div class="defi" id="defi4">
+            <div class="contenue">
+                <h2>Défi 6 : Les palindromes</h2>
+                <input id="motUtilisateur">
+                <button onclick="defi6()">Palindromes</button>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

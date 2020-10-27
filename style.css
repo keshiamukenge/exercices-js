@@ -1,8 +1,95 @@
-body{
+body {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.premiere-page {
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+h1 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 1em !important;
 }
+
+h2 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 5em !important;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    max-width: 100% !important;
+}
+
+#menu {
+    background-color: black;
+    color: white;
+}
+
+header {
+    width: 30%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+header ul li {
+    list-style-type: none;
+    font-size: 30px;
+    margin: 1em;
+}
+
+#block-defi {
+    margin-left: 30%;
+}
+
+.defi {
+    padding: 0 10em 50em 10em;
+    text-align: center;
+}
+
+ul li a {
+    color: white;
+    border: solid 0.5px;
+    padding: 0.1em 3em 0.1em 1em
+}
+
+ul li a:hover {
+    background-color: #e17055;
+    color: white;
+    text-decoration: none;
+    border-color: #e17055;
+}
+
+#defi1 {
+    background-color: #ffeaa7;
+    margin-top: 0;
+}
+
+#defi2 {
+    background-color: #fab1a0;
+}
+
+#defi3 {
+    background-color: #ff7675;
+}
+
+#defi4 {
+    background-color: #e17055;
+}
+
+.contenue {
+    padding-top: 20em;
+    display: flex;
+    flex-direction: column;
+}
+
+header p {}
